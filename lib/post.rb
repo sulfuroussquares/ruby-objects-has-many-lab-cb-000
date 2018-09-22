@@ -8,9 +8,9 @@ def initialize(title, author=nil)
 end
 
 
-unless discount.nil? || discount == 0
+#unless discount.nil? || discount == 0
   # ...
-end
+#end
 
 def author_name
   unless self.author.name.nil?
