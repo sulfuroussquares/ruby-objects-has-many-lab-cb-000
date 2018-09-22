@@ -13,7 +13,7 @@ end
 #end
 
 def author_name
-   self.author.name.nil?
+   if (self.author.name.nil?)
 end
 
 end
