@@ -20,6 +20,7 @@ def add_song_by_name(name)
   #test is adele.add_song_by_name("Rolling in the Deep")
   song = Song.new(name)
   self.songs << song
+  song.artist = self
 end
 
 end
