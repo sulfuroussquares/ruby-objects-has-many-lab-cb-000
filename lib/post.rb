@@ -13,6 +13,7 @@ end
 #end
 
 def author_name
+  if (self.author.name != nil)
   return self.author.name unless self.author.name.nil?
 end
 
