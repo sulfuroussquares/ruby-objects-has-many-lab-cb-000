@@ -8,5 +8,11 @@ def initialize(name, artist=nil)
 end
 
 def artist_name
+  if (self.artist.nil? == true)
+    nil
+  else
+    self.artist.name
+  end
+end
 
 end
