@@ -13,7 +13,7 @@ end
 #end
 
 def author_name
-   self.author.name.exists?
+   self.author.name.nil?
 end
 
 end
