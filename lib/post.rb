@@ -16,7 +16,7 @@ def author_name
    if (self.author.name.nil? == true)
      nil
    else
-     return nil
+     self.author.name
    end
 end
 
