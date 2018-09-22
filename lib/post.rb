@@ -7,4 +7,5 @@ def initialize(title, author=nil)
   @@all << self
 end
 
+def author_name
 end
