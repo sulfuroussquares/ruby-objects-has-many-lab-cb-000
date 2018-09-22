@@ -18,7 +18,7 @@ end
 
 def add_song_by_name(name)
   #test is adele.add_song_by_name("Rolling in the Deep")
-  Song.new(name, self.name)
+  song = Song.new(name)
 end
 
 end
