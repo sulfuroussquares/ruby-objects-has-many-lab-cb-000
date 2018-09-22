@@ -12,7 +12,7 @@ def songs
 end
 
 def add_song(song)
-  self.songs << self
+  self.songs << name
   song.artist = self
 end
 
