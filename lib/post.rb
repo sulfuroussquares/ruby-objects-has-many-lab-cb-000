@@ -7,8 +7,13 @@ def initialize(title, author=nil)
   @@all << self
 end
 
+
+unless discount.nil? || discount == 0
+  # ...
+end
+
 def author_name
-  if (self.author.name != nil)
+  unless self.author.name.nil?
     self.author.name
   else
   return nil
