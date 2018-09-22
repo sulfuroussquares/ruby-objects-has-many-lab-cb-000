@@ -7,5 +7,6 @@ def initialize(name, artist=nil)
   @@all << self
 end
 
+def artist_name
 
 end
