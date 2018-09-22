@@ -25,5 +25,6 @@ def add_post_by_title(title)
 end
 
 def post_count
+end
 
 end
